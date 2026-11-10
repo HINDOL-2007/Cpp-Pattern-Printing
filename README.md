@@ -1,6 +1,6 @@
 # Cpp-Pattern-Printing
 
-11 pattern-printing programs in **C++** using nested loops. I wrote all of them myself while starting DSA .
+12 pattern-printing programs in **C++** using nested loops. I wrote all of them myself while starting DSA .
 
 ## What these programs practice
 
@@ -8,10 +8,11 @@
 - Finding the rule for each row (how many spaces, how many symbols)
 - Using `char` variables with `ch++` and `ch--` to move through the alphabet
 - Printing numbers that count up and then back down
+- Using `if` conditions inside loops to treat the border differently from the inside (pattern 12)
 
 ## The patterns
 
-The examples below show the output for `n = 4` (pattern 3 uses `n = 3`).
+The examples below show the output for `n = 4` (pattern 3 uses `n = 3` and pattern 12 uses `n = 5`).
 
 **Pattern 1: square of stars** (`pattern_1.cpp`)
 ```
@@ -101,6 +102,15 @@ AAAA
  *   *
   * *
    *
+```
+
+**Pattern 12: hollow square** (`pattern_12.cpp`, `n = 5`)
+```
+*****
+*   *
+*   *
+*   *
+*****
 ```
 
 ## Run any program
